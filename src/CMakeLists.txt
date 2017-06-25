@@ -18,7 +18,7 @@ set(SOURCE
 
 add_executable( ${PROJECT_NAME} ${SOURCE})
 
-target_link_libraries(${PROJECT_NAME} cie_plot)
+target_link_libraries(${PROJECT_NAME} avis_plot)
 
 set_target_properties( ${PROJECT_NAME} PROPERTIES
 					RUNTIME_OUTPUT_DIRECTORY_DEBUG ${G_BIN_DIR}
